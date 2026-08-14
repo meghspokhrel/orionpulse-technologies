@@ -1,1 +1,43 @@
+body {
+    background: var(--op-bg-primary);
+    color: var(--op-text-primary);
 
+    font-family: var(--op-font-body);
+    font-size: 16px;
+    line-height: 1.6;
+
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--op-font-heading);
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+}
+
+a {
+    color: inherit;
+}
+
+.op-container {
+    width: min(
+        calc(100% - 40px),
+        var(--op-container)
+    );
+
+    margin-inline: auto;
+}
+
+.op-section {
+    padding-block: var(--op-space-3xl);
+}
+
+::selection {
+    background: var(--op-purple);
+    color: white;
+}
