@@ -1,1 +1,75 @@
+:root {
 
+    /* Colors */
+
+    --op-bg-primary: #05070D;
+    --op-bg-secondary: #090D16;
+
+    --op-surface: #0E1420;
+    --op-surface-elevated: #131A28;
+
+    --op-text-primary: #F5F7FA;
+    --op-text-secondary: #A5ADBC;
+    --op-text-muted: #687386;
+
+    --op-purple: #7C5CFF;
+    --op-blue: #3B82F6;
+    --op-violet: #A78BFA;
+
+
+    /* Typography */
+
+    --op-font-heading: "Space Grotesk", sans-serif;
+    --op-font-body: "Inter", sans-serif;
+
+
+    /* Layout */
+
+    --op-container: 1200px;
+
+    --op-space-xs: 8px;
+    --op-space-sm: 16px;
+    --op-space-md: 24px;
+    --op-space-lg: 40px;
+    --op-space-xl: 64px;
+    --op-space-2xl: 96px;
+    --op-space-3xl: 128px;
+
+
+    /* Radius */
+
+    --op-radius-sm: 8px;
+    --op-radius-md: 14px;
+    --op-radius-lg: 22px;
+    --op-radius-xl: 32px;
+
+
+    /* Borders */
+
+    --op-border: rgba(255, 255, 255, 0.08);
+    --op-border-hover: rgba(124, 92, 255, 0.45);
+
+
+    /* Shadows */
+
+    --op-shadow-soft:
+        0 20px 60px rgba(0, 0, 0, 0.25);
+
+
+    /* Transitions */
+
+    --op-transition-fast:
+        180ms ease;
+
+    --op-transition:
+        300ms ease;
+
+    --op-transition-slow:
+        600ms ease;
+
+
+    /* Z-index */
+
+    --op-z-header: 1000;
+    --op-z-overlay: 2000;
+}
