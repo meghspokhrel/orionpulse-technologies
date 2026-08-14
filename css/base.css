@@ -1,1 +1,142 @@
+body {
+    background:
+        var(--color-bg);
 
+    color:
+        var(--color-text);
+
+    font-family:
+        var(--font-primary);
+
+    font-size:
+        16px;
+
+    line-height:
+        1.6;
+
+    overflow-x:
+        hidden;
+}
+
+
+/* ================================
+   CONTAINER
+================================ */
+
+.container {
+    width:
+        min(
+            100% - (var(--container-padding) * 2),
+            var(--container-width)
+        );
+
+    margin-inline:
+        auto;
+}
+
+
+/* ================================
+   TYPOGRAPHY
+================================ */
+
+h1,
+h2,
+h3,
+h4 {
+    margin:
+        0;
+
+    font-family:
+        var(--font-display);
+
+    line-height:
+        1.05;
+
+    letter-spacing:
+        -0.03em;
+}
+
+p {
+    margin:
+        0;
+}
+
+.section-label {
+    display:
+        inline-flex;
+
+    align-items:
+        center;
+
+    gap:
+        8px;
+
+    margin-bottom:
+        var(--space-md);
+
+    color:
+        var(--color-cyan);
+
+    font-size:
+        12px;
+
+    font-weight:
+        700;
+
+    letter-spacing:
+        0.16em;
+
+    text-transform:
+        uppercase;
+}
+
+.section-label::before {
+    content:
+        "";
+
+    width:
+        24px;
+
+    height:
+        1px;
+
+    background:
+        var(--color-cyan);
+}
+
+
+/* ================================
+   SECTION
+================================ */
+
+.section {
+    position:
+        relative;
+
+    padding-block:
+        var(--space-3xl);
+}
+
+
+/* ================================
+   GRADIENT TEXT
+================================ */
+
+.gradient-text {
+    background:
+        linear-gradient(
+            90deg,
+            var(--color-blue),
+            var(--color-violet),
+            var(--color-cyan)
+        );
+
+    -webkit-background-clip:
+        text;
+
+    background-clip:
+        text;
+
+    color:
+        transparent;
+}
